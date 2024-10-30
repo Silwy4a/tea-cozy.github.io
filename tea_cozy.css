@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: seashell;
+    box-sizing: content-box;
+}
+
+/* MAIN */
+body {
+    background-color: #000;
+    margin: 0 20px;
+}
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+p {
+    font-size: 22px;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+nav img {
+    height: 50px;
+}
+nav > li {
+    display: inline-flex;
+    text-align: right;
+}
+
+.hero {
+    display: block;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+}
+.hero-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* SECTIONS MAIN */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.month {
+    display: flex;
+    width: 1000px;
+}
+.month-card {
+    display: inline-flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-image: url('/resources/img-locations-background.jpg');
+}
+.location-card {
+    display: inline-flex;
+    width: 300px;
+    margin-top: 15px;
+}
+
+/* FOOTER*/
+footer {
+    display: flex;
+    height: 200px;
+}
+.copyright {
+    text-align: left;
+}
